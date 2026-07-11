@@ -1,5 +1,5 @@
 # Enterprise_Geo_Metadata_Discovery_Reprojector-
-A arc-python and SQL based workflow to discover enterprise spatial metadata, plan cleaning of duplicate and archive data and perform reprojection (such as GDA 94 to 2020). It also discovers file use in user workflows and corporate systems (such as GeoCortex and Experience Builder) and either fixes them automatically or provides instructions to users on how to update there systems.
+An ESRI arc-python (arcpy) and SQL based workflow to discover enterprise spatial metadata, plan cleaning of duplicate and archive data and perform reprojection (such as GDA 94 to 2020). It also discovers file use in user workflows and corporate systems (such as GeoCortex and Experience Builder) and either fixes them automatically or provides instructions to users on how to update there systems.
 
 Critically it discovers, reports on and QA's ESRI SDE complex data such as
 -Versioning/Archiving
