@@ -1,22 +1,28 @@
-# Enterprise_Geo_Metadata_Discovery_Reprojector
-An ESRI arc-python (arcpy) and SQL based workflow to discover enterprise spatial metadata, plan cleaning of duplicate and archive data and perform reprojection (such as GDA 94 to 2020). It also discovers file use in user workflows and corporate systems (such as GeoCortex and Experience Builder) and either fixes them automatically or provides instructions to users on how to update there systems.
+# Enterprise Geo Metadata Discovery Reprojector
 
-Critically it discovers, reports on and QA's ESRI SDE complex data such as
--Versioning/Archiving
--Metadata
--Attachments and Relationships
--Subtypes
--Cordinate columns (uses AI to find columns that may contain spatial hard coded data)
--Schemas and Projections to automate the GDA 2020 or GDA 2020 plus zone or leave WGS 84 as is
--QA's changes programittically and via html reports for easy review
--Checks node based reprojection on x% of each feature class
--Contains input controls to work only on some files, continue, overwrite or skip based on logic requirements
+An ESRI ArcPy and SQL-based workflow to discover enterprise spatial metadata, plan the cleanup of duplicate and archived data, and perform reprojection (such as GDA94 to GDA2020).
 
-(c)(r) NSW DPHI
+It also discovers, reports on, and quality-assures ESRI SDE complex data, including:
 
-Code is maintained in internal repository and may possibly be accessed via official requests through coreagc@gmail.com where I will seek corporate approval.
+- Versioning and archiving
+- Metadata
+- Attachments and relationships
+- Subtypes
+- Coordinate columns (uses AI to identify columns that may contain hard-coded spatial data)
+- Schemas and projections to automate migration to GDA2020 (or GDA2020 + zone), or leave WGS84 unchanged
+- Programmatic and HTML-based QA reporting for easy review
+- Node-based reprojection checks on a configurable percentage of each feature class
+- Input controls to process selected files only, and continue, overwrite, or skip based on logic requirements
+
+© NSW DPHI
+
+---
 
 ## Notes
 
-Authors role: Created all code using AI tools and experience. Improved via consultation and implementing in stg-dev-test-prod environments through engagement with senior staff and program teams (data owners) and data users.
+**Author's role:**  
+Created all code using AI tools and professional experience, then improved it through consultation and implementation across staging, development, test, and production environments in collaboration with senior staff and program teams (data ...).
+
+Code is maintained in an internal repository and may be accessed via official requests through **coreagc@gmail.com**, where corporate approval will be sought.
+
 © NSW DPHI
