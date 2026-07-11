@@ -12,6 +12,8 @@ Critically it discovers, reports on and QA's ESRI SDE complex data such as
 -Checks node based reprojection on x% of each feature class
 -Contains input controls to work only on some files, continue, overwrite or skip based on logic requirements
 
-(c) NSW DPHI
+(c)(r) NSW DPHI
 
-Code is maintained in internal repository and maybe accessed via official requests through coreagc@gmail.com
+Code is maintained in internal repository and may possibly be accessed via official requests through coreagc@gmail.com
+
+Authors role: Created all code using AI tools and experience. Improved via consultation and implementing in stg-dev-test-prod environments through engagement with senior staff and program teams (data owners) and data users.
