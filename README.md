@@ -11,7 +11,6 @@ Critically it discovers, reports on and QA's ESRI SDE complex data such as
 -QA's changes programittically and via html reports for easy review
 -Checks node based reprojection on x% of each feature class
 -Contains input controls to work only on some files, continue, overwrite or skip based on logic requirements
-A Python-based workflow to:
 
 (c)(r) NSW DPHI
 
