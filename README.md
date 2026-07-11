@@ -14,14 +14,12 @@ It also discovers, reports on, and quality-assures ESRI SDE complex data, includ
 - Node-based reprojection checks on a configurable percentage of each feature class
 - Input controls to process selected files only, and continue, overwrite, or skip based on logic requirements
 
-© NSW DPHI
-
 ---
 
 ## Notes
 
 **Author's role:**  
-Created all code using AI tools and professional experience, then improved it through consultation and implementation across staging, development, test, and production environments in collaboration with senior staff and program teams (data ...).
+Created all code using AI tools and professional experience, then improved it through consultation and implementation across staging, development, test, and production environments in collaboration with senior staff and program teams (data owners) and stakeholders.
 
 Code is maintained in an internal repository and may be accessed via official requests through **coreagc@gmail.com**, where corporate approval will be sought.
 
